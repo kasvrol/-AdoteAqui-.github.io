@@ -1,0 +1,177 @@
+body{
+    background-image: url(adoteaqui.jpg);
+    font-family: 'Bebas Neue', cursive;
+}
+/* cabeçalho */
+header{
+
+    background-image: url(fundologo.jpg);
+
+}
+.logo{
+    width: 300px;
+}
+nav{
+    width: 700px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: yellow;
+    font-size: 60px;
+    display: inline-flex;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 80px;
+    color: black;
+}
+
+a:active{
+    font-size: 80px;
+    color: rgb(56, 186, 255);
+}
+
+/* corpo */
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(56, 186, 255);
+    margin-top: 15px;
+}
+.texto{
+    font-size: 20px;
+    margin: 5px 20px 20px 20px;
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+}
+.texto a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.texto a:hover{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bichos li {
+    text-align: center;
+    width: 20%;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    margin: 20px 5px 20px 5px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+li .bichos-adoção{
+    width: 20%;
+}
+.bichos-adoção img{
+    width: 50%;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    
+}
+.bichos-adoção:hover img{
+    width: 60%;
+}
+.bichos-adoção p{
+        margin: 0px 0px 10px 0px;
+        font-size: 20px;
+}
+
+.contatinho{
+    background-color: rgb(56, 186, 255);
+    padding-bottom: 10px;
+}
+ 
+ 
+ .contatinho h3{
+     color: yellow;
+     font-size: 40px;
+     padding-top: 15px;
+     
+ }
+ 
+ label{
+     font-size: 20px;
+     display: inline;
+     color: yellow;
+     margin: 10px 10px 10px 350px;
+ }
+ input, textarea{
+     display: block;
+     margin-bottom: 10px;
+     width: 60%;
+     margin: 10px 10px 10px 350px;
+ 
+ }
+ .enviar{
+     background-color: yellow;
+     border-color: yellow;
+     font-size: 20px;
+     margin-bottom: 10px;
+     font-family: 'Bebas Neue', cursive;
+
+ }
+ 
+ footer{
+     background-image:url(fundologo.jpg);
+     text-align: center;
+     padding-top: 5px;
+ }
+ .copyright{
+     color: white;
+     margin-top: 5px;
+     padding-bottom:5px;
+ }
+ @media screen and (max-width: 700px){
+    .logo{
+        width: 100%;
+        align-items: center;
+    }
+    .caixa1{
+       text-align: center;
+    }
+    nav a{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: yellow;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    a:hover{
+        font-size: 35px;
+    }
+    .bichos li {
+        text-align: center;
+        width: 80%;
+        margin: 10% 10% 10% 10%;
+        box-sizing: border-box;
+        border-color: black;
+        border-width: 2px;
+        border-style: dashed;
+    }
+    bichos-adoção img{
+        width: 50%;
+        margin: 10px 0px 10px 0px;
+        align-items: center;
+        
+    }
+    label{
+        font-size: 16px;
+        margin: 10% 10% 10% 20%;
+    }
+    input, textarea{
+        margin: 10% 10% 10% 20%;
+    
+    }
+}

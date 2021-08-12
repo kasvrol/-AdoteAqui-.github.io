@@ -1,0 +1,37 @@
+.cabeçalho .caixa1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.caixa1 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+
+}
+.bichos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+    .cabeçalho .caixa1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .caixa1 nav{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .bichos{
+        display: flex;
+        flex-direction: column;
+    }
+}
